@@ -22,7 +22,7 @@ namespace Data.Context
             if (!optionsBuilder.IsConfigured)
             {
                 optionsBuilder.UseSqlServer("Data Source=MAGNATI-10865-F;" +
-                       "Initial Catalog=CursoIdiomas;" +
+                       "Initial Catalog=CadastroTurma;" +
                        "Integrated Security=True;" +
                        "Connect Timeout=30;" +
                        "Encrypt=False;" +
