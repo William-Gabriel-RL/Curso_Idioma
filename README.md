@@ -10,6 +10,15 @@ Essa api foi criada como um simples cadastro de aluno, turmas e a inscrição de
 - Aluno não pode ser excluído se estiver associado em uma turma;
 - Turma não pode ser excluída se possuir alunos;
 
+## Como executar
+
+1. Crie um clone do repositório na sua máquina local
+2. Abra o arquivo .sln no Visual Studio
+3. Limpe a solução
+4. Restaure qualquer Pacote do NuGet que esteja faltando
+5. Altere o caminho do banco de dados que está em CadastroTurmaDbContext(na camada data) e appsettings.Development.json(na camada API)
+6. Compile a solução e rode o projeto
+
 ## Estrutura do código
 
 ### Linguagem
